@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Agencia Uai</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-nos" class="nav-link active">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre Nós
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#destinos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Destinos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#promocoes" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Promoções
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contatos" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container" data-bs-spy="scroll" data-bs-target="cabecalho">
+        <section id="sobre-nos">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./imagens/MG.jpg" alt="#">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/SP.jpg" alt="#">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imageNS/RJ.jpg" alt="#">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/ES.jpg" alt="#">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <img src="./imagens/AdobeStock_494573033_Preview.jpeg" class="d-block w-100 rounded"
+                                alt="#">
+                        </div>
+                        <div class="col-md-5">
+                            <h2 class="section-title">Sobre <span class="text-colored">a agência</span></h2>
+                            <p>Fundada no início dos anos 2000 em Minas Gerais, nossa agência vem com instituto de
+                                favorecer a população do Sudeste Brasileiro em conhecer as riquezas naturais dos 4
+                                estados que compõem a região.</p>
+                            <ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="destinos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Cidades Turisticas  <span class="text-colored">dos estados</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./imagens/são paulo.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+
+                            São Paulo
+                        </h3>
+                        <p>O turismo na cidade de São Paulo destaca-se mais pelo turismo de negócios
+                            que pelo turismo recreativo. Grandes redes de hotéis cujo público-alvo é o
+                            corporativo/empresarial estão instaladas na cidade e possuem filiais espalhadas em várias
+                            das suas centralidades.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/rio de janeiro 1.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            Rio de Janeiro
+                        </h3>
+                        <p>O Rio de Janeiro é uma grande cidade brasileira à beira-mar, famosa pelas praias de
+                            Copacabana e Ipanema, pela estátua de 38 metros de altura do Cristo Redentor, no topo do
+                            Corcovado, e pelo Pão de Açúcar, um pico de granito com teleféricos até seu cume</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/espirito santo.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+
+                            Espirito Santo
+                        </h3>
+                        <p>Espírito Santo para conhecer, um estado que é dono de excelentes paisagens
+                            urbanas e naturais, e um ótimo destino para os turistas que desejam conhecer um pouco mais
+                            da beleza ímpar que o nosso país possui</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="promocoes">
+        
+        <div class="container" style="width: 18rem;">
+            <img src="imagens/Todas as regiões do Brasil com mapas e ilustrações.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Promoções</h5>
+                <p class="card-text">Selecionamos ofertas para você, algumas com reservas flexíveis e outras preços
+                    incríveis. Monte o Pacote de Viagem Baratos ideal para você e Viaje tranquilo em até 10x sem juros</p>
+                <a href="#" class="btn btn-primary">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+
+        <section id="contatos">
+           <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Entre em Contato</h2>
+                    <form action="">
+                    <label for="form-label">Seu Nome</label>
+                        <input class="form-control form-control-md" type="text" id="nome">
+                        <label for="email"class="form-control">Seu e-mail</label>
+                        <input type="email" class="form-control">
+                        <label for="mensagem" class="form-label">Sua Mensagem</label>
+                        <textarea id="mensagem" class="form-control" ></textarea>
+                        <button class="btn btn-success">Enviar</button>
+                      
+                    </form>
+                </div>
+            </div>
+           </div>
+        </section>
+    <script src="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
